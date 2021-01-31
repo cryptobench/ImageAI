@@ -341,7 +341,7 @@ class ClassificationModelTrainer:
                                      monitor='accuracy',
                                      verbose=1,
                                      save_weights_only=save_weights_condition,
-                                     save_best_only=True,
+                                     save_best_only=False,
                                      period=1)
 
 
